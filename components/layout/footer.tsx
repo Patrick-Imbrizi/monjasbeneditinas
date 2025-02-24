@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-8">
             <div className="flex items-center space-x-2">
               <Church className="h-6 w-6 text-primary" />
-              <span className="font-cinzel text-sm font-bold">Mosteiro de Nossa Senhora das Graças</span>
+              <span className="font-cinzel text-sm font-bold">Mosteiro de Nossa Senhora da Glória</span>
             </div>
             <p className="text-sm text-zinc-500 dark:text-zinc-400">
               "Felizes os que habitam vossa casa (Sl 83, 3)"
@@ -99,7 +99,7 @@ export function Footer() {
         </div>
         <div className="mt-12 border-t border-zinc-200 pt-8 dark:border-zinc-700">
           <p className="text-center text-sm text-zinc-400">
-            © {new Date().getFullYear()} Mosteiro de Nossa Senhora das Graças. Todos os direitos reservados.
+            © {new Date().getFullYear()} Mosteiro de Nossa Senhora da Glória. Todos os direitos reservados.
           </p>
         </div>
       </div>

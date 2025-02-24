@@ -25,7 +25,7 @@ export function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2 ">
               <Church className="h-6 w-6 text-primary" />
-              <span className="font-cinzel text-sm leading-tight font-bold max-w-[50vw]">Mosteiro de Nossa Senhora das Graças</span>
+              <span className="font-cinzel text-sm leading-tight font-bold max-w-[50vw]">Mosteiro de Nossa Senhora da Glória</span>
             </Link>
           </div>
 

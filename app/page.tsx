@@ -4,6 +4,12 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
 export default function Home() {
+  const handleSayHello = () => {
+    // open mailto link
+
+     window.open('mailto:?subject=Olá&body=A sua benção!', '_blank');
+
+  }
   return (
     <>
       {/* Hero Section */}
@@ -25,9 +31,9 @@ export default function Home() {
             </p>
             <div className="mt-10 flex justify-center gap-4">
               <Button asChild size="lg" variant="default" className="bg-white text-black hover:bg-zinc-300">
-                <Link href="/visit">
-                  Agende sua visita
-                </Link>
+                <Button onClick={handleSayHello}>
+                  Fale conosco
+                </Button>
               </Button>
               <Button asChild size="lg" variant="outline" className="bg-transparent text-white hover:bg-white hover:text-black">
                 <Link href="/about">Conheça</Link>

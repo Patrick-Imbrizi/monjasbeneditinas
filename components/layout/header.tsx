@@ -67,12 +67,6 @@ export function Header() {
                 <Link href="/lectio-divino" className="block px-4 py-2 hover:bg-gray-100">
                   Lectio Divino
                 </Link>
-                <Link href="/oracao-continua" className="block px-4 py-2 hover:bg-gray-100">
-                  Oração contínua
-                </Link>
-                <Link href="/pedidos-de-oracao" className="block px-4 py-2 hover:bg-gray-100">
-                  Pedidos de oração
-                </Link>
               </div>
             </li>
             {/* São bento with submenu */}
@@ -177,16 +171,6 @@ export function Header() {
                   <li>
                     <Link href="/lectio-divino" className="block px-2 py-2 hover:bg-gray-600">
                       Lectio Divino
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/oracao-continua" className="block px-2 py-2 hover:bg-gray-600">
-                      Oração contínua
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/pedidos-de-oracao" className="block px-2 py-2 hover:bg-gray-600">
-                      Pedidos de oração
                     </Link>
                   </li>
                   <li>

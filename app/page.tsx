@@ -36,7 +36,7 @@ export default function Home() {
                 </Button>
               </Button>
               <Button asChild size="lg" variant="outline" className="bg-transparent text-white hover:bg-white hover:text-black">
-                <Link href="/about">Conheça</Link>
+                <Link href="/historia">Conheça</Link>
               </Button>
             </div>
           </div>
@@ -54,9 +54,11 @@ export default function Home() {
               <p className="text-zinc-600 dark:text-zinc-300">7:30 AM - Lauds</p>
             </div>
             <div className="rounded-lg bg-white p-6 shadow-md dark:bg-zinc-800">
-              <h3 className="font-cinzel text-xl font-semibold mb-4">Missa diária</h3>
-              <p className="text-zinc-600 dark:text-zinc-300">11:00 AM - Holy Mass</p>
-              <p className="text-zinc-600 dark:text-zinc-300">5:30 PM - Vespers</p>
+              <h3 className="font-cinzel text-xl font-semibold mb-4">Santa Missa</h3>
+              <p className="text-zinc-600 font-bold dark:text-zinc-300">Segunda a Sábado</p>
+              <p className="text-zinc-600 dark:text-zinc-300">7:00 AM</p>
+              <p className="text-zinc-600 font-bold dark:text-zinc-300">Domingo</p>
+              <p className="text-zinc-600 dark:text-zinc-300">7:30 AM</p>
             </div>
             <div className="rounded-lg bg-white p-6 shadow-md dark:bg-zinc-800">
               <h3 className="font-cinzel text-xl font-semibold mb-4">Vésperas</h3>
@@ -87,7 +89,7 @@ export default function Home() {
                   O Mosteiro de Nossa Senhora da Glória foi fundado por um grupo de seis monjas, duas candidatas dinamarquesas e um monge provindos do Mosteiro de Nossa Senhora de Aasebakken, na Dinamarca, em 8 de setembro de 1948, festa da Natividade da Bem-Aventurada Virgem Maria, na Cidade e Arquidiocese de Uberaba.
                 </p>
                 <Button asChild className="mt-4" variant="outline">
-                  <Link href="/nossa-historia">Saiba mais</Link>
+                  <Link href="/historia">Saiba mais</Link>
                 </Button>
               </div>
             </div>
@@ -127,7 +129,7 @@ export default function Home() {
                   O Oblato secular é o fiel (leigo, consagrado ou sacerdote) que, chamado por Deus pelo Sacramento do Batismo, e em conformidade com seu estado de vida, associa-se a uma comunidade monástica beneditina, a fim de viver coerentemente a sua consagração batismal, em comunhão com a Igreja, no espírito da Regra de São Bento.
                 </p>
                 <Button asChild className="mt-4" variant="outline">
-                  <Link href="/nossa-historia">Saiba mais</Link>
+                  <Link href="/oblatos">Saiba mais</Link>
                 </Button>
               </div>
             </div>

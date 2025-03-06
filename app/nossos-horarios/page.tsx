@@ -115,7 +115,7 @@ export default function Page() {
                                 </div>
 
                                 {/* Card com atendimento do Bazar */}
-                                <div className="card mt-6 p-4 border rounded bg-zinc-800">
+                                <div className="card mt-6 p-4 border rounded dark:bg-zinc-800">
                                     <div className="text-center">
                                         <h4 className="font-bold mb-2">Atendimento do Bazar:</h4>
                                         <p>

@@ -7,7 +7,7 @@ export default function Home() {
   const handleSayHello = () => {
     // open mailto link
 
-     window.open('mailto:?subject=Olá&body=A sua benção!', '_blank');
+    window.open('mailto:mnsgloriaube@gmail.com');
 
   }
   return (
@@ -24,10 +24,10 @@ export default function Home() {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white">
             <h1 className="font-cinzel text-4xl font-bold sm:text-5xl md:text-6xl">
-              Ora et Labora
+              U.I.O.G.D.
             </h1>
             <p className="mt-6 text-xl font-extralight sm:text-2xl">
-              "Felizes os que habitam vossa casa (Sl 83, 3)"
+              "Que em todas as coisas Deus seja glorificado"
             </p>
             <div className="mt-10 flex justify-center gap-4">
               <Button asChild size="lg" variant="default" className="bg-white text-black hover:bg-zinc-300">

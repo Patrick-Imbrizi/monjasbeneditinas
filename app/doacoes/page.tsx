@@ -34,7 +34,7 @@ export default function Page() {
                       />
                     </div>
                     <h2 className="text-xl font-bold mb-2">Doações via PIX</h2>
-                    <p className="text-gray-700">Envie sua doação para:</p>
+                    <p className="text-zinc-700">Envie sua doação para:</p>
                     <p className="mt-2 font-mono text-lg">
                       18256933000100
                     </p>

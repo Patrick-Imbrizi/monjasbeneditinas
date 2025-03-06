@@ -35,7 +35,7 @@ export default function Home() {
                   Fale conosco
                 </Button>
               </Button>
-              <Button asChild size="lg" variant="outline" className="bg-transparent text-white hover:bg-white hover:text-black">
+              <Button asChild size="lg" variant="outline" className="bg-transparent text-white hover:bg-white hover:text-black border-white">
                 <Link href="/historia">Conheça</Link>
               </Button>
             </div>
@@ -44,27 +44,84 @@ export default function Home() {
       </section>
 
       {/* Daily Prayer Times */}
-      <section className="bg-secondary py-16">
+      <section className="border-b border-zinc-800 border-dashed py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="font-cinzel text-3xl font-bold text-center mb-12">Nossos horários</h2>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-            <div className="rounded-lg bg-white p-6 shadow-md dark:bg-zinc-800">
-              <h3 className="font-cinzel text-xl font-semibold mb-4">Laudes</h3>
-              <p className="text-zinc-600 dark:text-zinc-300">6:00 AM - Vigils</p>
-              <p className="text-zinc-600 dark:text-zinc-300">7:30 AM - Lauds</p>
+          <h2 className="font-cinzel text-xl md:text-3xl font-bold text-center mb-12">Nossos horários</h2>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3 ">
+            <div className="relative overflow-hidden rounded-lg bg-primary-foreground border bg-white dark:bg-zinc-800 ">
+              <Image
+                src="/santa-missa.jpeg"
+                alt="Spiritual Direction"
+                width={400}
+                height={300}
+                className="h-64 w-full object-cover"
+              />
+              <div className="p-6">
+                <h3 className="font-cinzel text-xl font-semibold mb-4">Santa Missa</h3>
+                <p className="text-zinc-600 font-bold dark:text-zinc-300">Segunda a Sábado</p>
+                <p className="text-zinc-600 dark:text-zinc-300 mb-4">7:00 AM</p>
+                <p className="text-zinc-600 font-bold dark:text-zinc-300">Domingo e solenidades</p>
+                <p className="text-zinc-600 dark:text-zinc-300">7:30 AM</p>
+              </div>
             </div>
-            <div className="rounded-lg bg-white p-6 shadow-md dark:bg-zinc-800">
-              <h3 className="font-cinzel text-xl font-semibold mb-4">Santa Missa</h3>
-              <p className="text-zinc-600 font-bold dark:text-zinc-300">Segunda a Sábado</p>
-              <p className="text-zinc-600 dark:text-zinc-300">7:00 AM</p>
-              <p className="text-zinc-600 font-bold dark:text-zinc-300">Domingo</p>
-              <p className="text-zinc-600 dark:text-zinc-300">7:30 AM</p>
+            <div className="relative overflow-hidden rounded-lg bg-primary-foreground border bg-white dark:bg-zinc-800 ">
+              <Image
+                src="/oficio-divino.jpeg"
+                alt="Spiritual Direction"
+                width={400}
+                height={300}
+                className="h-64 w-full object-cover"
+              />
+              <div className="p-6 text-sm h-full">
+                <h3 className="font-cinzel text-xl font-semibold mb-2">Ofício Divino</h3>
+                <div className='grid grid-cols-2'>
+                  <div className='flex flex-col'>
+                    <p className="text-zinc-600 font-bold dark:text-zinc-300">Vigílias</p>
+                    <p className="text-zinc-600 dark:text-zinc-300 mb-1 ml-2">4:45 AM</p>
+                  </div>
+                  <div className='flex flex-col'>
+                    <p className="text-zinc-600 font-bold dark:text-zinc-300">Terça</p>
+                    <p className="text-zinc-600 dark:text-zinc-300 mb-1 ml-2">8:30 AM</p>
+                  </div>
+                  <div className='flex flex-col'>
+                    <p className="text-zinc-600 font-bold dark:text-zinc-300">Sexta</p>
+                    <p className="text-zinc-600 dark:text-zinc-300 mb-1 ml-2">12:00 PM</p>
+                  </div>
+                  <div className='flex flex-col'>
+                    <p className="text-zinc-600 font-bold dark:text-zinc-300">Noa</p>
+                    <p className="text-zinc-600 dark:text-zinc-300 mb-1 ml-2">2:00 PM</p>
+                  </div>
+                  <div className='flex flex-col'>
+                    <p className="text-zinc-600 font-bold dark:text-zinc-300">Vésperas</p>
+                    <p className="text-zinc-600 dark:text-zinc-300 mb-1 ml-2">5:00 PM</p>
+                  </div>
+                  <div className='flex flex-col'>
+                    <p className="text-zinc-600 font-bold dark:text-zinc-300">Completas</p>
+                    <p className="text-zinc-600 dark:text-zinc-300 ml-2">7:45 PM</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="rounded-lg bg-white p-6 shadow-md dark:bg-zinc-800">
-              <h3 className="font-cinzel text-xl font-semibold mb-4">Vésperas</h3>
-              <p className="text-zinc-600 dark:text-zinc-300">7:45 PM - Compline</p>
-              <p className="text-zinc-600 dark:text-zinc-300">8:15 PM - Grand Silence</p>
+            <div className="relative overflow-hidden rounded-lg bg-primary-foreground border bg-white dark:bg-zinc-800">
+              <Image
+                src="/bazar-monjas.jpeg"
+                alt="Spiritual Direction"
+                width={400}
+                height={300}
+                className="h-64 w-full object-cover object-top"
+              />
+              <div className="p-6">
+                <h3 className="font-cinzel text-xl font-semibold mb-4">Atendimento ao Bazar</h3>
+                <p className="text-zinc-600 font-bold dark:text-zinc-300">Segunda a Sábado</p>
+                <p className="text-zinc-600 dark:text-zinc-300 mb-4">9:00 AM - 11:00 AM</p>
+                <p className="text-zinc-600 dark:text-zinc-300 mb-4">2:00 PM - 5:00 PM</p>
+              </div>
             </div>
+          </div>
+          <div className="w-full flex justify-center py-12">
+            <a href='/nossos-horarios' className="text-zinc-300 hover:text-white text-center underline underline-offset-4">
+              Ver tabela completa de horários
+            </a>
           </div>
         </div>
       </section>
@@ -72,6 +129,7 @@ export default function Home() {
       {/* Featured Content */}
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="font-cinzel text-xl md:text-3xl font-bold text-center mb-12">Nos conheça um pouco mais</h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="relative overflow-hidden rounded-lg bg-primary-foreground border ">
               <Image

@@ -55,7 +55,7 @@ export default function Page() {
                                                 <td className="border px-4 py-2">Despertar</td>
                                             </tr>
                                             <tr>
-                                                <td className="border px-4 py-2">4:50</td>
+                                                <td className="border px-4 py-2">4:45</td>
                                                 <td className="border px-4 py-2">Ofício de Vigílias</td>
                                             </tr>
                                             <tr>
@@ -107,7 +107,7 @@ export default function Page() {
                                                 <td className="border px-4 py-2">Recreio</td>
                                             </tr>
                                             <tr>
-                                                <td className="border px-4 py-2">19:40</td>
+                                                <td className="border px-4 py-2">19:45</td>
                                                 <td className="border px-4 py-2">Ofício de Completas</td>
                                             </tr>
                                         </tbody>
@@ -115,7 +115,7 @@ export default function Page() {
                                 </div>
 
                                 {/* Card com atendimento do Bazar */}
-                                <div className="card mt-6 p-4 border rounded bg-gray-100">
+                                <div className="card mt-6 p-4 border rounded bg-zinc-800">
                                     <div className="text-center">
                                         <h4 className="font-bold mb-2">Atendimento do Bazar:</h4>
                                         <p>
@@ -124,7 +124,7 @@ export default function Page() {
 
                                         </p>
                                         <p>
-                                            Das 14:20 às 17:00
+                                            Das 14:00 às 17:00
                                         </p>
                                     </div>
                                 </div>

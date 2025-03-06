@@ -4,7 +4,7 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div className="flex flex-col gap-3 bg-orange-50 p-5">
+        <div className="flex flex-col gap-3 p-5">
             <p className='text-center'>&nbsp;</p>
             <div className='flex justify-center'>
                 <img alt="" src="https://web.archive.org/web/20190104064259im_/http://www.monjasbeneditinas.org.br/sites/default/files/u5/comunidade_fundadora.jpg" className='w-auto max-h-80' />

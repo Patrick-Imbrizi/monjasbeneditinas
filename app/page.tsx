@@ -119,7 +119,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full flex justify-center py-12">
-            <a href='/nossos-horarios' className="text-zinc-300 hover:text-white text-center underline underline-offset-4">
+            <a href='/nossos-horarios' className="text-zinc-500 hover:text-zinc-400 dark:text-zinc-300 dark:hover:text-white text-center underline underline-offset-4">
               Ver tabela completa de horários
             </a>
           </div>

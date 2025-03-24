@@ -7,8 +7,7 @@ export default function Home() {
   const handleSayHello = () => {
     // open mailto link
 
-    window.open('mailto:mnsgloriaube@gmail.com');
-
+    window.open('mailto:mnsgloriaub@gmail.com');
   }
   return (
     <>
